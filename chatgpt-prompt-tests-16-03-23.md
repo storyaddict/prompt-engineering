@@ -276,12 +276,12 @@ def generate_response(prompt):
 
 This is a function that generates a response to a given prompt using the OpenAI API. Here is a breakdown of the parameters used in the openai.Completion.create function:
 
-- engine: The name of the language model to use. In this case, we are using the "davinci" model, which is one of the most powerful models available from OpenAI.
-- prompt: The prompt for the language model to generate a response to. This is the text that you pass into the function when you call it.
-- temperature: Controls the randomness of the generated output. Higher values result in more diverse output, while lower values result in more conservative output.
-- max_tokens: The maximum number of tokens (words and punctuation marks) to include in the generated output.
-- top_p: A value between 0 and 1 that controls the diversity of the generated output. Higher values result in more diverse output, while lower values result in more conservative output.
-- frequency_penalty and presence_penalty: Penalty parameters that can be used to discourage repetition of certain words or phrases in the generated output.
+- `engine`: The name of the language model to use. In this case, we are using the "davinci" model, which is one of the most powerful models available from OpenAI.
+- `prompt`: The prompt for the language model to generate a response to. This is the text that you pass into the function when you call it.
+- `temperature`: Controls the randomness of the generated output. Higher values result in more diverse output, while lower values result in more conservative output.
+- `max_tokens`: The maximum number of tokens (words and punctuation marks) to include in the generated output.
+- `top_p`: A value between 0 and 1 that controls the diversity of the generated output. Higher values result in more diverse output, while lower values result in more conservative output.
+- `frequency_penalty` and `presence_penalty`: Penalty parameters that can be used to discourage repetition of certain words or phrases in the generated output.
 
 The function returns the generated response as a string, with any leading or trailing whitespace removed using the strip() function.
 
