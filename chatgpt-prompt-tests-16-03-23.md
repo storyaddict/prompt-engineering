@@ -204,6 +204,7 @@ Sure, here is a step-by-step guide on how to integrate ChatGPT with LibreOffice 
     pip install openai
     ```
   3.  Create an OpenAI API key: If you don't already have an OpenAI API key, create one by following the instructions on the OpenAI website.
+  
   4.  Create a Python script: Create a new Python script that will generate text using the OpenAI API. Here is an example script that generates a response to a given prompt:
 
     ```python
@@ -223,13 +224,21 @@ Sure, here is a step-by-step guide on how to integrate ChatGPT with LibreOffice 
     return response.choices[0].text.strip()
     ```
   Replace "YOUR_API_KEY_HERE" with your actual OpenAI API key.
+  
   5.  Save the script: Save the script to a location on your computer where you can easily find it later.
+  
   6.  Open LibreOffice Writer: Open LibreOffice Writer and create a new document.
+  
   7.  Open the Python IDE: Open the Python IDE that comes with LibreOffice Writer. This can be done by selecting "Tools" > "Macros" > "Edit Macros" from the LibreOffice Writer menu.
+  
   8.  Create a new macro: In the Python IDE, create a new macro by clicking "File" > "New" > "Python Macro" from the menu.
+  
   9.  Add the Python script: In the new macro window, copy and paste the Python script you created earlier into the editor.
+  
   10.  Save the macro: Save the macro with a descriptive name that you will remember, such as "OpenAI_Response".
+  
   11.  Run the macro: Close the macro editor and return to the LibreOffice Writer document. Select "Tools" > "Macros" > "Run Macro" from the menu. In the "Macro Selector" window, select the macro you just created and click "Run".
+  
   12.  Use the macro: In the "Run Macro" window, enter a prompt for the language model to generate a response. The macro will call the Python script, generate a response, and insert it into the document.
 
   That's it! You have now integrated ChatGPT with LibreOffice Writer and can use it to generate text within your documents. Keep in mind that this is just a basic example, and you can modify the Python script to generate more complex responses or to work with different language models.
